@@ -1,0 +1,73 @@
+#mediaBar {
+  display: flex;
+  width: 100%;
+  height: 105px;
+  background: white;
+
+
+  span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    padding-top: 19px;
+    padding-left: 120px;
+  }
+  .lorem {
+    width: 394px;
+    height: 38px;
+    font-family: Montserrat, Regular;
+    font-size: 14px;
+    padding-top: 48px;
+    margin: 0 0 0 -130px;
+    color: #86878B;
+  }
+
+  .fa-facebook-f {
+    width: 16px;
+    height: 30px;
+    font-size: 24px;
+    color: #E27866;
+    opacity: 0.65;
+    padding-top: 40px;
+    padding-left: 100px;
+  }
+  .fa-instagram {
+    width: 16px;
+    height: 30px;
+    font-size: 30px;
+    color: #E27866;
+    opacity: 0.65;
+    padding-top: 40px;
+    padding-left: 125px;
+  }
+  .fa-twitter {
+    width: 16px;
+    height: 30px;
+    font-size: 28px;
+    color: #E27866;
+    opacity: 0.65;
+    padding-top: 40px;
+    padding-left: 135px;
+  }
+  .fa-pinterest {
+    width: 16px;
+    height: 30px;
+    font-size: 28px;
+    color: #E27866;
+    opacity: 0.65;
+    padding-top: 40px;
+    padding-left: 135px;
+  }
+  .fa-rss {
+    width: 16px;
+    height: 30px;
+    font-size: 28px;
+    color: #E27866;
+    opacity: 0.65;
+    padding-top: 40px;
+    padding-left: 135px;
+  }
+  .sites {
+    padding-left: 200px;
+  }
+}

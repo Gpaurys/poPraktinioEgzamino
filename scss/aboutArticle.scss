@@ -1,0 +1,105 @@
+#about {
+  background-color: #1C1C1C;
+  width: 1700px;
+}
+
+.about-logo {
+  background-image: url(../assets/logo-big.svg) no-repeat;
+  width: 389px;
+  height: 169px;
+  padding-right: 800px;
+}
+.about-right-box {
+  flex-direction: column;
+  padding-bottom: 80px;
+  margin-right: 200px;
+}
+
+.about-name {
+  color: #FFFFFF;
+  margin-left: 500px;
+  font-size: 30px;
+  margin: 80px 0 -70px 500px;
+}
+
+p.about-Erat {
+  width: 314px;
+  height: 80px;
+}
+
+.about-line {
+  width: 300px;
+
+}
+
+.about-span-line {
+  top: 1608px;
+  left: 767px;
+  width: 200px;
+  height: 2px;
+  color: #E27866;
+  margin-left: 500px;
+  padding-bottom: 10px;
+}
+
+
+.about-text {
+  top: 1637px;
+  left: 767px;
+  width: 451px;
+  height: 58px;
+  text-align: left;
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-left: 500px;
+  padding-bottom: 50px;
+}
+
+.about-section {
+  width: 50px;
+}
+
+.fa-circle {
+  width: 50px;
+  height: 50px;
+  border: 1px #E27866;
+  border-radius: 50%;
+  color: #E27866;
+  margin-left: 500px;
+  font-size: 70px;
+}
+
+.about-title {
+  width: 30px;
+  height: 18px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-left: 590px;
+  margin-bottom: 10px;
+
+}
+
+.about-lorem {
+  width: 394px;
+  height: 38px;
+  text-align: left;
+  font-family: Montserrat, Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 590px;
+}
+
+.about-title-lorem {
+  margin: -84px 0 18px 0px;
+}
+
+.about-title-lorem2 {
+  margin: -84px 0 18px 0px;
+}
+
+.about-ellipse {
+  display: inline;
+  flex-direction: column;
+}

@@ -1,0 +1,66 @@
+footer {
+  width: 1700px;
+  height: 124px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+.footer-sites {
+  padding-right: 350px;
+  padding-bottom: 40px;
+
+}
+
+.fa-facebook-f {
+  width: 16px;
+  height: 30px;
+  font-size: 24px;
+  color: #E27866;
+  opacity: 0.65;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+.fa-instagram {
+  width: 16px;
+  height: 30px;
+  font-size: 30px;
+  color: #E27866;
+  opacity: 0.65;
+  padding-top: 40px;
+  padding-left: 125px;
+}
+.fa-twitter {
+  width: 16px;
+  height: 30px;
+  font-size: 28px;
+  color: #E27866;
+  opacity: 0.65;
+  padding-top: 40px;
+  padding-left: 135px;
+}
+.fa-pinterest {
+  width: 16px;
+  height: 30px;
+  font-size: 28px;
+  color: #E27866;
+  opacity: 0.65;
+  padding-top: 40px;
+  padding-left: 135px;
+}
+.fa-rss {
+  width: 16px;
+  height: 30px;
+  font-size: 28px;
+  color: #E27866;
+  opacity: 0.65;
+  padding-top: 40px;
+  padding-left: 135px;
+}

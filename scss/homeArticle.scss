@@ -1,0 +1,17 @@
+#home {
+  display: flex;
+  background: #00000045;
+  background-image: url(../assets/home-cover.png);
+  background-blend-mode: darken;
+  object-fit: cover;
+  height: 639px;
+  top: 72px;
+  left: 0px;
+  width: 1700px;
+  .home-text {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+  }
+  @import "form";
+}

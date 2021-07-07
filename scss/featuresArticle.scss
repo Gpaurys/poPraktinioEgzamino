@@ -1,0 +1,132 @@
+#features {
+  display: flex;
+  width: 1700px;
+  justify-content: space-around;
+  background-image:
+  linear-gradient(90deg, rgba(226,120,102,0.42) 0%, rgba(102,150,226,0.42) 100%),
+  url(../assets/features-cover.png);
+  background-size: cover;
+  padding: 20%;
+
+  // Buttons stuff
+  .features-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    .features-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      background: #A37169;
+      color: white;
+      margin: 20px;
+      margin-right: 169px;
+      box-shadow: 0px 3px 6px #00000029;
+      transition: all 0.05s;
+      span {
+        font-size: 14px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+
+      span {
+        transform: rotate(315deg);
+        opacity: 50%;
+      }
+    }
+
+    .features-button-active {
+      background: #E27866;
+      span {
+        opacity: 100%;
+      }
+    }
+  }
+}
+
+.first-text {
+  width: 509px;
+  height: 124px;
+  text-align: left;
+  font-size: 36px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-family: Montserrat, semiBold;
+
+}
+
+.second-text {
+  width: 513px;
+  height: 138px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Montserrat, Regular;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-right: 100px;
+  padding-top: 33px;
+}
+
+.paragraph2 {
+  padding-right: 100px;
+}
+
+.top-photo {
+    display: flex;
+    height: 168px;
+}
+
+.kopustas {
+  display: flex;
+  opacity: 0.8;
+  width: 160px;
+  height: 168px;
+  margin: 130px 2px 300px -170px;
+  padding-left: 25px;
+}
+
+.meal {
+  display: flex;
+  width: 168px;
+  height: 168px;
+  // box-shadow: 0px 3px 6px #00000029;
+  margin-bottom: 170px;
+  margin-left: 35px;
+}
+
+.staires {
+  display: flex;
+  width: 362px;
+  height: 177px;
+  // box-shadow: 0px 3px 6px #00000029;
+  margin-top: 180px;
+}
+
+.staires-one {
+  margin-left: -340px;
+
+}
+
+
+
+//Swiper stuff
+//   .swiper2 {
+//     width: 100%;
+//     .swiper-slide {
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       .slide-header {
+//         font-size: 30px;
+//       }
+//       img {
+//         width: 200px;
+//         height: 200px;
+//         object-fit: contain;
+//       }
+//     }
+// }
